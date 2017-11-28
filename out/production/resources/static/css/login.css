@@ -1,0 +1,75 @@
+.login-win {
+    width: 350px;
+    height: 368px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-win .title {
+    height: 40px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.login-win .title span {
+    font-size: 16px;
+    color: #333;
+}
+
+.login-win .content{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-win .input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.login-win .input-group input {
+    margin-top: 5px;
+    height: 34px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0 12px;
+
+}
+
+
+.login-win button {
+    margin: 20px 0 15px 0;
+    height: 34px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login-win .tips {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-win .tips span{
+    font-size: 14px;
+    color: #333;
+    margin-right: 20px;
+}
+.login-win .tips a{
+    font-size: 14px;
+    color: #0074c2;
+}
